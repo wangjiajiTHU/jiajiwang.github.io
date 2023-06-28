@@ -151,16 +151,18 @@ title: Home
 </div>
 -->
 
-<!-- ========== TALKS ========== -->
+<!-- ========== PRESENTATION ========== -->
 <div class="docs-section" id="presnetation">
   <h4>Presentations</h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
   {% for talk in current_talks %}
   <div class="talk">
-    <p class="title"> <a href={{talk.link}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
+    <p class="title"> <a href={{talk.link|| prepend: site.baseurl}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
   </div>
   {% endfor %}
 </div>
+
+
 
 
 <!-- ========== STUDENTS ========== -->
