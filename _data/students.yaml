@@ -1,0 +1,17 @@
+
+students:
+    - name: "Xiaoge Tian"
+      time: "2023"
+      title: "Ph.D. student"
+      category: "current"
+      link: ""
+    - name: "Si Fu"
+      time: "2023"
+      title: "Ph.D. student"
+      category: "current"
+      link: ""
+    - name: "Chawit Kaewnuratchadasorn"
+      time: "2023"
+      title: "Research assistant"
+      category: "current"
+

@@ -1,0 +1,38 @@
+experiences:
+
+- place: "The University of Hong Kong"
+  time: "01/2023 - now"
+  title: "Assistant Professor, Civil Engineering"
+  subtitle: "HKU Structural AI Lab"
+  category: "work"
+  
+- place: "Kyoto University"
+  time: "04/2022 - 04/2024"
+  title: "JSPS Postdoctoral Fellow"
+  subtitle: "Department of Civil and Earth Resources Engineering"
+  category: "work"
+
+- place: "University of Houston: Houston"
+  time: "07/2019 - 04/2022"
+  title: "Postdoctoral Associate"
+  subtitle: "Department of Civil and Environmental Engineering"
+  category: "work"
+
+- place: "Tsinghua University"
+  time: "08/2014 - 07/2019"
+  title: "Ph.D. Student "
+  subtitle: "Mentored by Prof. Jianguo Nie, Member of Chinese Academy of Engineering (CAE)"
+  category: "school"
+
+- place: "Northeastern University, Boston"
+  time: "07/2017 - 10/2017"
+  title: "Visiting Scholar"
+  subtitle: "Civil Engineering"
+  category: "school"
+
+- place: "Tsinghua University"
+  time: "08/2010 - 07/2014"
+  title: "B.S. Student"
+  subtitle: "Civil Engineering"
+  category: "school"
+

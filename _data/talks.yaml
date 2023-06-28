@@ -1,0 +1,31 @@
+
+talks:
+    - name: "<br/> 16th International Conference on Computing in Civil and Building Engineering (ICCCBE)"
+      time: "2016"
+      title: "Numerical calculation of effective stiffness of composite shear walls under seismic loading"
+      category: "current"
+
+    - name: "<br/> 12th World Conference on Computational Mechanics (WCCM)"
+      time: "2016"
+      title: "Spatial crack model for reinforced concrete members"
+      category: "current"
+
+    - name: "<br/> 9th International Conference on fracture mechanics of concrete and concrete structures (FraMCoS)"
+      time: "2016"
+      title: "Fracture energy method in predicting crack spacing of reinforced concrete structures"
+      category: "current"
+
+    - name: "<br/> 7th International Symposium on Innovation and Sustainability of Structures in Civil Engineering (ISISS)"
+      time: "2018"
+      title: "A novel concrete model for high-fidelity simulation of steel concrete composite shear wall"
+      category: "current"
+
+    - name: "<br/> 13th World Conference on Computational Mechanics (WCCM)"
+      time: "2018"
+      title: "A three-dimensional explicit constitutive model for high-precision simulation of concrete structures"
+      category: "current"
+
+    - name: "<br/> 9th International Conference on Advances in Steel Structures (ICASS)"
+      time: "2018"
+      title: "Experimental study of steel plate reinforced concrete composite shear walls under tension-bending-shear combined cyclic load"
+      category: "current"

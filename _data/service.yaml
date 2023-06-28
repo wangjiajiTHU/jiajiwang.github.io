@@ -1,0 +1,11 @@
+
+service:
+    - name: "<br/> ASCE associate member (American Society of Civil Engineers)<br/> 
+            <br/> AISC member (American Institute of Steel Construction)<br/> 
+            <br/> JSPS postdoctoral fellow (Japan Society for the Promotion of Science) <br/> "
+      title: "Membership"
+      category: "current"
+      url: https://suki-workshop.github.io/
+    - name: "<br/> Engineering Structures; ASCE Journal of Engineering Mechanics; ACI Structural Journal; ACI Material Journal; Advances in Structural Engineering; Archives of Civil and Mechanical Engineering; International Journal of Concrete Structures and Materials; Structural Concrete; Structures" 
+      title: "Reviewer"
+      category: "current"

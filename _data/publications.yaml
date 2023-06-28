@@ -1,0 +1,69 @@
+papers:
+
+  - title: "Fracture energy-based model for average crack spacing of reinforced concrete considering size effect and concrete strength variation"
+    authors: "<b>Jiaji Wang</b>, Muxuan Tao*, Xin Nie"
+    venue: "<b>Construction and Building Materials</b>"
+    paper_pdf: "https://doi.org/10.1016/j.conbuildmat.2017.05.082"
+    selected: y
+
+  - title: "Seismic behavior of Steel Plate reinforced concrete composite shear walls under tension-bending-shear combined load"
+    authors: "<b>Jiaji Wang</b>, Muxuan Tao, Jiansheng Fan, Xin Nie*"
+    venue: "<b>ASCE Journal of Structural Engineering</b>"
+    paper_pdf: "https://doi.org/10.1061/%28ASCE%29ST.1943-541X.0002073"
+    selected: y
+    
+  - title: "Force transfer mechanism in RC beam strengthened in shear by means of steel plated concrete"
+    authors: "<b>Jiaji Wang</b>, Muxuan Tao, Meng Zhou, Xin Nie*"
+    venue: "<b>Engineering Structures</b>"
+    paper_pdf: "https://doi.org/10.1016/j.engstruct.2018.05.026"
+    selected: y
+
+  - title: "Simplified design method for the shear capacity of steel plate shear-strengthened reinforced-concrete beams"
+    authors: "<b>Jiaji Wang</b>, Meng Zhou, Jiansheng Fan, Muxuan Tao*"
+    venue: "<b>ASCE Journal of Bridge Engineering(Editor's choice paper for November, 2018)</b>"
+    paper_pdf: "https://doi.org/10.1061/%28ASCE%29BE.1943-5592.0001310"
+    selected: y
+
+  - title: "Triaxial concrete constitutive model for simulation of composite plate shear wall-Concrete encased: THUC3"
+    authors: "<b>Jiaji Wang</b>, Cheng Liu, Jiansheng Fan, Jerome F. Hajjar, Xin Nie*"
+    venue: "<b>ASCE Journal of Structural Engineering</b>"
+    paper_pdf: "https://doi.org/10.1061/%28ASCE%29ST.1943-541X.0002355"
+    selected: y    
+
+  - title: "Experimental study and design method of in-plane shear behavior of composite plate shear walls-concrete filled. Engineering Structures"
+    authors: "<b>Jiaji Wang</b>, Xin Nie*, Fanmin Bu, Muxuan Tao"
+    venue: "<b>Engineering Structures</b>"
+    paper_pdf: "https://doi.org/10.1016/j.engstruct.2020.110656"
+    selected: y
+
+  - title: "Nonlinear model updating algorithm for biaxial reinforced concrete constitutive models of shear walls"
+    authors: "<b>Jiaji Wang</b>, Cheng Liu, Xin Nie*, Jian-Sheng Fan, Ying-Jie Zhu"
+    venue: "<b>Journal of Building Engineering</b>"
+    paper_pdf: "https://doi.org/10.1016/j.jobe.2021.103215"
+    selected: y
+
+  - title: "A Deep Learning Framework for Constitutive Modeling based on Temporal Convolutional Network"
+    authors: "<b>Jiaji Wang</b>, Chen Wang*, Jian-Sheng Fan, Y.L. Mo"
+    venue: "<b>Journal of Computational Physics</b>"
+    paper_pdf: "https://doi.org/10.1016/j.jcp.2021.110784"
+    selected: y    
+
+  - title: "Deep Convolutional Neural Networks for Semantic Segmentation of Cracks"
+    authors: "<b>Jiaji Wang</b>, Yufei Liu, Xin Nie*, Y.L. Mo"
+    venue: "<b>Structural Control and Health Monitoring</b>"
+    paper_pdf: "https://doi.org/10.1002/stc.2850"
+    selected: y 
+
+  - title: "Biaxial Constitutive Models for Simulation of Low Aspect Ratio Reinforced Concrete Shear Walls"
+    authors: "<b>Jiaji Wang</b>, Cheng Liu, Xin Nie*, Ran Ding, Ying-Jie Zhu"
+    venue: "<b>ASCE Journal of Engineering Mechanics</b>"
+    paper_pdf: "https://doi.org/10.1061/%28ASCE%29EM.1943-7889.0002030"
+    selected: y 
+
+  - title: "Active isolation tests of metamaterial-based barriers and foundation"
+    authors: "<b>Jiaji Wang</b>, Hsuan Wen Huang, Benchen Zhang, F.-Y. Menq, Kalyana Babu Nakshatrala, Y.L. Mo, K.H. Stokoe"
+    venue: "<b>Engineering Structures</b>"
+    paper_pdf: "https://doi.org/10.1016/j.engstruct.2022.114253"
+    selected: y    
+
+   
