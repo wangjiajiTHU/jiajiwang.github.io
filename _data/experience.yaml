@@ -20,19 +20,21 @@ experiences:
 
 - place: "Tsinghua University"
   time: "08/2014 - 07/2019"
-  title: "Ph.D. Student "
+  title: "Ph.D."
   subtitle: "Mentored by Prof. Jianguo Nie, Member of Chinese Academy of Engineering (CAE)"
   category: "school"
 
 - place: "Northeastern University, Boston"
   time: "07/2017 - 10/2017"
   title: "Visiting Scholar"
-  subtitle: "Civil Engineering"
+  subtitle: "Mentored by Prof. Jerome F. Hajjar, Member of US National Academy of Engineering (NAE)"
+  website: "http://www1.coe.neu.edu/~jfhajjar/home/jfhajjar.htm"
   category: "school"
 
 - place: "Tsinghua University"
   time: "08/2010 - 07/2014"
-  title: "B.S. Student"
+  title: "B.S. with first-class honor"
+  subtitle: "Mentored by Prof. Jianguo Nie, Member of Chinese Academy of Engineering (CAE)"
   subtitle: "Civil Engineering"
   category: "school"
 
