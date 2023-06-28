@@ -1,4 +1,5 @@
-# Martin Saveski's Website
+# Assistant Professor Jiaji Wang Website
+Structural Artificial Intelligence Laboratory at the University of Hong Kong SAIL@HKU
 
 ## Updates guide
 Change one of the files in `_data`, unless you are changing the look of the website.
