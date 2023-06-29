@@ -6,9 +6,8 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  Jiaji Wang joined the Department of Civil Engineering at the University of Hong Kong as Assistant Professor in Jan 2023. He obtained his Ph.D. from the laboratory of Steel and Composite Steel-Concrete Structures at Tsinghua University and served as JSPS postdoctoral fellow at Kyoto Unviersity. </a>
-  Enthusiastic about applying high-fidelity computational methods in structural analysis and design, Jiaji’s researches are mainly focused on three topics: (1) High fidelity constitutive models for reinforced concrete and composite structures and </a> 
-  (2) Seismic performance and design recommendations of RC shear walls and composite shear walls under tension-bending-shear load, (3) Physics-informed machine learning for structural engineering.
+  Jiaji Wang joined the Department of Civil Engineering at the University of Hong Kong as Assistant Professor in Jan 2023. He obtained his Ph.D. supervised by Professor Jianguo Nie at THU from the laboratory of Steel-Concrete Composite Structures and served as JSPS postdoctoral fellow at Kyoto Unviersity and postdoctoral researcher at University of Houston. </a>
+  Enthusiastic about applying high-fidelity computational methods in structural analysis and design, Jiaji’s researches are mainly focused on:
   
     <ul>
       <li><b>Physics-informed machine learning for intelligent structural engineering</b></a></li>
@@ -23,7 +22,7 @@ title: Home
   </p>
   
   <p>
-  <font color="red">We are actively looking for strong and motivated students to join our group!</font> If you are interested in working with us, please read recent papers, email me with thoughts on extensions. Sorry, I'm afraid I generally can't respond to all individual emails.
+  <font color="red">We are actively looking for strong and motivated students to join our group!</font> If you are interested in working with us, please read recent papers and <b>the position section</b>, and email me with thoughts on extensions. Sorry, I'm afraid I generally can't respond to all individual emails.
   </p>
 
 </div>
@@ -52,29 +51,8 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              <a class="button" href="{{ paper.paper_pdf}}" target="_blank">Paper</a>
             {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
           </div>
         </div>
       {% endfor %}
@@ -88,27 +66,7 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+              <a class="button" href="{{ paper.paper_pdf}}" target="_blank">Paper</a>
             {% endif %}
           </div>
         </div>
@@ -192,16 +150,18 @@ title: Home
 </div>
 -->
 
-<!-- ========== TALKS ========== -->
+<!-- ========== PRESENTATION ========== -->
 <div class="docs-section" id="presnetation">
   <h4>Presentations</h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
   {% for talk in current_talks %}
   <div class="talk">
-    <p class="title"> <a href={{talk.link}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
+    <p class="title"> <a href={{talk.link|| prepend: site.baseurl}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
   </div>
   {% endfor %}
 </div>
+
+
 
 
 <!-- ========== STUDENTS ========== -->
@@ -254,7 +214,36 @@ title: Home
   </ul>
 </div>
 
+<!-- ========== OPENPOSITION ========== -->
+<div class="docs-section" id="openposition">
+  <h4>Open Position</h4>
+  <p> <font color="red"><b>香港政府博士生奖学金招生——香港大学土木工程系汪家继</b></font>
+  <p> 香港政府博士生奖学金: <a href="https://cerg1.ugc.edu.hk/hkpfs/index.html" target="_blank">https://cerg1.ugc.edu.hk/hkpfs/index.html</a> 
+  <p> 香港大学士木工程系助理教授汪家继博士的课题组现招收1名全额奖学金资助的结构工程专业博士生。<b>来自顶尖高校（如中国内地的C9、日本东京大学、新加坡国立大学等）的教育部国家奖学金获奖者（或一等奖学金获奖者），强烈建议申请香港博士奖学金计划（HKPFS）和香港大学校长奖学金（HKU-PS），成功入选者每年将由香港研究资助局提供每年31.9万港币的生活费和每年1.3万港元的会议和研究相关旅行津贴，豁免学费。香港大学将为上述获奖者提供额外的生活津贴（2万至4万港币每年）并确保学校舍堂住宿</b>。 未成功入选者也可享有每年1.8万港币的奖学金，豁免学费。
+汪家继博士的研究领域将与近年来快速发展的机器学习方法与计算力学、结构工程、超级计算机等领域的研究相融合。汪家继博士研究方向主要包括：<b>使用物理驱动机器学习方法求解或探索偏微分方程组，使用数据驱动机器学习方法建立工程结构的数字孪生模型，基于机器视觉和人工智能的结构健康监测技术，基于高性能计算平台开展大规模结构动力响应模拟，大型复杂钢-混凝土组合结构的模拟与设计优化，基于周期超材料的智能结构隔震减振等</b>。博士生研究阶段将获得世界前沿的超级计算机资源。汪家继博士与美、日、欧等诸多前沿课题组建立了良好的合作基础。预计入学日期为2024年9月。
+  <p> 专业能力要求：在入学日期以前已完成土木工程（或结构工程、岩土工程、防灾减灾、水利工程、交通工程等）或其他相关专业（力学大类，数学，计算机科学与技术等）本科或以上学位。英语能力可参考香港大学博士生招生要求<a href="https://gradsch.hku.hk/prospective_students/application/admission_requirement" target="_blank">https://gradsch.hku.hk/prospective_students/application/admission_requirement </a>
+  <p> 香港大学奖学金待遇介绍：香港大学土木工程系现有教职员工约30人，在校本科生400余人，研究生500余人。该系提供各种学术课程，包括土木工程学士、硕士和博士学位。土木工程系连续多年位列QS世界大学学科排名世界前20名。土木工程系的成员积极从事建筑工程与管理、岩土工程、结构工程、交通工程以及水与环境工程方面的创新研究和新技术。该系已成立三个研究中心，以促进跨学科/多学科合作，在香港大学和学院内进行有影响力的研究，包括环境工程研究中心、建筑和基础设施发展创新中心，以及水技术和政策中心。土木工程系已经领导许多由香港研究资助委员会、政府和行业资助的大型跨学科竞争性研究项目。该系还在建筑信息学、结构工程、模块化集成建筑、环境水力学、环境工程、碳中和、岩土工程等领域拥有众多主要设施和实验室。近年来，香港大学土木工程系依托国家自然科学基金和香港地区等资助单位的项目资助，取得了大量国际前沿的研究成果，在国际上形成了广泛的影响力。香港大学博士生全额奖学金待遇为18030至-18520港币/月，特别优秀的博士生申请人有可能申请香港大学校长杰出博士生奖学金（每年资助40万港币以上）或其他奖学金资助。诚恳欢迎对这一职位有兴趣的博士生申请人将简历、成绩单和研究陈述（包括研究经历和未来研究计划）以邮件形式发送至汪家继博士邮箱<b>（cewang[AT]hku.hk）</b>，并注明：PhD candidate application at HKU。符合条件的申请人会得到面试通知。申请截止日期为2023年9月1日。
 
+ <p> 香港大学博士研究生申请信息:  
+    <a href="https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy" target="_blank">https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy</a> 
+    <a href="https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy/regulations_for_the_degree_of_doctor_of_philosophy" target="_blank">https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy/regulations_for_the_degree_of<br />_doctor_of_philosophy </a> 
+    
+ <p> 汪家继博士主页：
+<a href="https://www.civil.hku.hk/pp-wangjj.html" target="_blank">https://www.civil.hku.hk/pp-wangjj.html </a> ;
+<a href="https://www.researchgate.net/profile/Wang-Jiaji" target="_blank">https://www.researchgate.net/profile/Wang-Jiaji </a>
+
+ <p> <font color="red"><b>Call for PhD fellowship candidate: Hong Kong Government PhD Fellowship Recruitment - Department of Civil Engineering at the University of Hong Kong, Dr. Wang Jiaji 
+ <p> Hong Kong Government PhD Fellowship:</font></b> <a href="https://cerg1.ugc.edu.hk/hkpfs/index.html" target="_blank">https://cerg1.ugc.edu.hk/hkpfs/index.html </a>
+ <p> Dr. Wang Jiaji, Assistant Professor in the Department of Civil Engineering at the University of Hong Kong, is recruiting one fully-funded PhD student in structural engineering. <b>Outstanding applicants from top universities (such as C9 in Mainland China, the University of Tokyo in Japan, and the National University of Singapore) who have received national scholarships from the Ministry of Education (or first-class scholarships) are strongly encouraged to apply for the Hong Kong PhD Fellowship Scheme (HKPFS) and the Presidential Scholarship of the University of Hong Kong (HKU-PS). Successful candidates will be provided with an annual living allowance of HK$319,000 and a conference and research-related travel allowance of HK$13,000 per year by the Hong Kong Research Grants Council, with tuition fees waived. HKU will also provide additional living allowances (HK$20,000 to HK$40,000 per year) and ensure on-campus accommodation for the aforementioned awardees</b>. Unsuccessful candidates may still be eligible for an annual scholarship of HK$18,000 and a tuition fee waiver. Dr. Wang Jiaji's research will focus on the integration of rapidly developing machine learning methods with computational mechanics, structural engineering, supercomputing, and other fields. His research areas mainly include: <b>solving or exploring partial differential equations using physics-driven machine learning methods, establishing digital twin models of engineering structures using data-driven machine learning methods, structural health monitoring technology based on machine vision and artificial intelligence, large-scale structural dynamic response simulation based on high-performance computing platforms, simulation and design optimization of large complex steel-concrete composite structures, and intelligent structural isolation and vibration reduction based on periodic metamaterials</b>. PhD students will have access to cutting-edge supercomputing resources during their research. Dr. Wang Jiaji has established good cooperation with many frontier research groups in the United States, Japan, and Europe. The expected enrollment date is September 2024. 
+ <p> Professional requirements: Applicants should have completed a bachelor's degree or higher in civil engineering (or structural engineering, geotechnical engineering, disaster prevention and mitigation, hydraulic engineering, transportation engineering, etc.) or other related fields (mechanics, mathematics, computer science and technology, etc.) before the enrollment date. English language requirements can be found at <a href="https://gradsch.hku.hk/prospective_students/application/admission_requirement" target="_blank">https://gradsch.hku.hk/prospective_students/application/admission_requirement </a>
+ <p> Introduction to scholarships at the University of Hong Kong: The Department of Civil Engineering at HKU has about 30 faculty members, over 400 undergraduate students, and over 500 graduate students. The department offers various academic programs, including bachelor's, master's, and doctoral degrees in civil engineering. The Department of Civil Engineering has been ranked in the top 20 in the QS World University Subject Rankings for several years. Members of the Department are actively engaged in innovative research and new technologies in the areas of construction engineering and management, geotechnical engineering, structural engineering, transportation engineering, and water and environmental engineering. The Department has established three research centers to promote interdisciplinary/multidisciplinary collaboration, impactful research within HKU and the faculty, including the Centre for Environmental Engineering Research, the Centre for Innovation in Construction and Infrastructure Development, and the Centre for Water Technology and Policy. The Department has led numerous large-scale interdisciplinary competitive research projects funded by the Hong Kong Research Grants Council, government, and industry. The Department also has many major facilities and laboratories in the areas of building informatics, structural engineering, modular integrated construction, environmental hydraulics, environmental engineering, carbon neutrality, geotechnical engineering, and more. In recent years, the Department of Civil Engineering at HKU has achieved a large number of internationally leading research results, supported by projects funded by the National Natural Science Foundation and the  Hong Kong region, and has formed a wide range of influence internationally. The full scholarship for PhD students at HKU is HK$18,030 to HK$18,520 per month, and exceptionally outstanding PhD applicants may apply for the HKU Presidential Outstanding Doctoral Student Scholarship (with an annual funding of over HK$400,000) or other scholarship support. Interested PhD applicants are sincerely welcome to send their resumes, transcripts, and research statements (including research experience and future research plans) by email to Dr. Wang Jiaji <b>(cewang[AT]hku.hk)</b> with the subject line: "PhD candidate application at HKU". Qualified applicants will be notified for interviews. The application deadline is September 1, 2023. Information on PhD student applications at the University of Hong Kong: 
+ <p> PhD application information:  
+    <a href="https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy" target="_blank">https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy</a> 
+    <a href="https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy/regulations_for_the_degree_of_doctor_of_philosophy" target="_blank">https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy/regulations_for_the_degree_of<br />_doctor_of_philosophy </a> 
+ <p> Homepage of Jiaji Wang:
+<a href="https://www.civil.hku.hk/pp-wangjj.html" target="_blank">https://www.civil.hku.hk/pp-wangjj.html </a> ;
+<a href="https://www.researchgate.net/profile/Wang-Jiaji" target="_blank">https://www.researchgate.net/profile/Wang-Jiaji </a>
+</div>
 
 <div class="docs-section" id="template">
     <h4>Acknowledgement</h4>
