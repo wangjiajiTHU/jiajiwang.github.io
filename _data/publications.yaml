@@ -1,5 +1,11 @@
 papers:
+  - title: "Exact Dirichlet boundary Physics-informed Neural Network EPINN for solid mechanics"
+    authors: "<b>Jiaji Wang</b>, Y.L. Mo, Izzuddin, Chul-Woo Kim*"
+    venue: "<b>Computer Methods in Applied Mechanics and Engineering</b>"
+    paper_pdf: "https://doi.org/10.1016/j.cma.2023.116184"
+    selected: y
 
+  
   - title: "Fracture energy-based model for average crack spacing of reinforced concrete considering size effect and concrete strength variation"
     authors: "<b>Jiaji Wang</b>, Muxuan Tao*, Xin Nie"
     venue: "<b>Construction and Building Materials</b>"
