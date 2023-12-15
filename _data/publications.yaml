@@ -1,4 +1,10 @@
 papers:
+  - title: "Neural operator for structural simulation and bridge health monitoring"
+    authors: "Chawit Kaewnuratchadasorn, <b>Jiaji Wang</b>, Chul-Woo Kim*"
+    venue: "<b>computer-aided civil and infrastructure engineering</b>"
+    paper_pdf: "https://doi.org/10.1111/mice.13105"
+    selected: y
+
   - title: "Exact Dirichlet boundary Physics-informed Neural Network EPINN for solid mechanics"
     authors: "<b>Jiaji Wang</b>, Y.L. Mo, Izzuddin, Chul-Woo Kim*"
     venue: "<b>Computer Methods in Applied Mechanics and Engineering</b>"
