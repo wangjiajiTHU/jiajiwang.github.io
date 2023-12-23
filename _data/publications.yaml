@@ -3,6 +3,7 @@ papers:
     authors: "Chawit Kaewnuratchadasorn, <b>Jiaji Wang</b>, Chul-Woo Kim*"
     venue: "<b>computer-aided civil and infrastructure engineering, 2023</b>"
     paper_pdf: "https://doi.org/10.1111/mice.13105"
+    video: "https://innowings.engg.hku.hk/epinn-vino/"
     selected: y
 
   - title: "Exact Dirichlet boundary Physics-informed Neural Network EPINN for solid mechanics"
