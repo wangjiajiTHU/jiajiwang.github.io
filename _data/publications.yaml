@@ -1,4 +1,10 @@
 papers:
+  - title: "Physics-informed neural operator solver and super-resolution for solid mechanics"
+    authors: "Chawit Kaewnuratchadasorn, <b>Jiaji Wang*</b>, Chul-Woo Kim"
+    venue: "<b>computer-aided civil and infrastructure engineering, 2024</b>"
+    paper_pdf: "https://doi.org/10.1111/mice.13292"
+    selected: y
+  
   - title: "Neural operator for structural simulation and bridge health monitoring"
     authors: "Chawit Kaewnuratchadasorn, <b>Jiaji Wang</b>, Chul-Woo Kim*"
     venue: "<b>computer-aided civil and infrastructure engineering, 2023</b>"
