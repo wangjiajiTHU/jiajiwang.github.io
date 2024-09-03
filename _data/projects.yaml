@@ -1,7 +1,7 @@
 projects:
   - title: "NSFC Young Scientists Fund project:Research on nonlinear behaviour of modular steel-concrete composite buildings considering semi-rigid inter-module connections"
     subtitle: "Modular Integrated Construction (MiC)"
-    thumbnail: "assets/projects/NSFC2024/UMAT.jpg"
+    thumbnail: "assets/projects/NSFC2024/UMAT.png"
     url: "projects/NSFC2024.html"
     selected: y
 
