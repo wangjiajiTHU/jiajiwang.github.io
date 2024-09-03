@@ -5,11 +5,11 @@ projects:
     url: "projects/NSFC2024.html"
     selected: y
 
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
-    selected: y
+  # - title: "Human Atlas"
+  #   subtitle: "Tool for Mapping Social Networks"
+  #   thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
+  #   url: "projects/2016_human-atlas.html"
+  #   selected: y
 
   # - title: "Responsive Communities"
   #   subtitle: "Pilot project in Jun, Spain"
