@@ -93,7 +93,7 @@ title: Home
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
+        {% if index_modulo == 2 or forloop.last %}
           </div>
         {% endif %}
       {% endfor %}
