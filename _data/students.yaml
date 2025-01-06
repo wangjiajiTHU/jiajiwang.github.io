@@ -1,19 +1,28 @@
 
 students:
-    - name: "Xiaoge Tian"
-      time: "2023"
-      title: "Ph.D. student"
-      category: "current"
-      link: ""
+
     - name: "Si Fu"
       time: "2023"
       title: "Ph.D. student"
       category: "current"
       link: ""
+  
+    - name: "Xiaoge Tian"
+      time: "2023"
+      title: "Ph.D. student"
+      category: "current"
+      link: ""
+
     - name: "Chawit Kaewnuratchadasorn"
       time: "2024"
       title: "HKPFS student"
       category: "current"
+
+    - name: "Mingyu Wang"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current" 
+
     - name: "Peng Liang"
       time: "2025"
       title: "Ph.D. student"
@@ -29,13 +38,9 @@ students:
       title: "Ph.D. student"
       category: "current"
 
-    - name: "Mingyu Wang"
-      time: "2025"
-      title: "Ph.D. student"
-      category: "current"
-
     - name: "Yuzheng Chen"
       time: "2025"
       title: "Ph.D. student"
       category: "current"
+
 
