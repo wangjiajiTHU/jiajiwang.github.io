@@ -14,4 +14,28 @@ students:
       time: "2024"
       title: "HKPFS student"
       category: "current"
+    - name: "Peng Liang"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current"
+
+    - name: "Wenbin Zhang"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current"
+
+    - name: "Yuming Zhang"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current"
+
+    - name: "Mingyu Wang"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current"
+
+    - name: "Yuzheng Chen"
+      time: "2025"
+      title: "Ph.D. student"
+      category: "current"
 
